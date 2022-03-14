@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #f3fafad8;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  color: #000131;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2%;
+  justify-content: center;
+}
+
+#title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #000131;
+  margin-top: 3%;
+}
+
+#subtitle {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  margin-top: 1%;
+}
+
+#checkbox {
+  display: inline-block;
+}
+
+#form {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  border-color: #000131;
+  border-radius: 15px;
+  border-width: 0px;
+  border-style: solid;
+  margin-top: 1px;
+  margin-bottom: 2em;
+}
+
+#nameId {
+  margin-top: 2%;
+  border-color: #2effd2;
+  border-radius: 15px;
+  border-width: 2px;
+  height: 22px;
+  width: 230px;
+  border-style: solid;
+}
+
+#lastNameId {
+  margin-top: 1%;
+  border-color: #2effd2;
+  border-radius: 15px;
+  border-width: 2px;
+  height: 22px;
+  width: 230px;
+  border-style: solid;
+}
+
+#emailId {
+  margin-top: 1%;
+  border-color: #2effd2;
+  border-radius: 15px;
+  border-width: 2px;
+  height: 22px;
+  width: 230px;
+  border-style: solid;
+}
+
+#phoneId {
+  margin-top: 1%;
+  border-color: #2effd2;
+  border-radius: 15px;
+  border-width: 2px;
+  height: 22px;
+  width: 230px;
+  border-style: solid;
+}
+
+#profileId {
+  margin-top: 1%;
+  border-color: #2effd2;
+  border-radius: 15px;
+  border-width: 2px;
+  height: 22px;
+  width: 230px;
+  border-style: solid;
+}
+
+#senioridade {
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: #2effd2;
+  height: 22px;
+  width: 100px;
+}
+
+#dias {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-style: solid;
+}
+
+.button {
+  font-size: 1.2em;
+  font-family: "Montserrat", sans-serif;
+  background: #000000;
+  border-radius: 17px;
+  margin-bottom: 5em;
+  color: #2effd2;
+  padding: 0.3em 2em;
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.button:hover {
+  background: #000131;
+  text-shadow: none;
+}

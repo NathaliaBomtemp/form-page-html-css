@@ -1,43 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TechNews Form</title>
-</head>
-<div>
-    <h1>Cadastro TechNews</h1>
-    <p>Preencha os dados abaixo participar do TechNews (evento fictício).</p>
-</div>
-<br />
 
-<form>
-    <fieldset>
-        <div>
-            <label>Nome</label>
-            <input type="text" name="name" id="nameId" />
-        </div>
-        <div>
-            <label>Sobrenome</label>
-            <input type="text" name="lastName" id="lastNameId" />
-        </div>
-        <div>
-            <label>E-mail</label>
-            <input type="email" name="email" id="emailId" />
-        </div>
-        <div>
-            <label>Telefone</label>
-            <input type="number" name="phone" id="phoneId" />
-        </div>
-        <div>
-            <label>LinkedIn</label>
-            <input type="url" name="linkedIn" id="profileId" />
-        </div>
-    </fieldset>
-</form>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+    </style>
 
-<body></body>
+    <title>TechNews</title>
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="form-page.css"
+      media="screen"
+    />
+  </head>
+  <!--Título e descrição do form-->
+  <body>
+    <div>
+      <h1 id="title">Cadastro TechNews</h1>
+      <p id="subtitle">
+        Preencha os dados abaixo para participar do TechNews (evento fictício).
+      </p>
+    </div>
+    <br />
 
+    <!--box com as informações pessoais-->
+    <form id="form">
+      <div>
+        <label for="nameId"><strong>Nome</strong></label>
+        <input type="text" name="name" id="nameId" required />
+      </div>
+      <div>
+        <label for="lastNameId"><strong>Sobrenome</strong></label>
+        <input type="text" name="lastName" id="lastNameId" required />
+      </div>
+      <div>
+        <label for="emailId"><strong>E-mail</strong></label>
+        <input type="email" name="email" id="emailId" required />
+      </div>
+      <div>
+        <label for="phoneId"><strong>Telefone</strong></label>
+        <input type="number" name="phone" id="phoneId" required />
+      </div>
+      <div>
+        <label for="profileId"><strong>LinkedIn</strong></label>
+        <input type="url" name="linkedIn" id="profileId" />
+      </div>
+      <br />
+
+      <!--Rádio com perfis de atuação-->
+      <div>
+        <label><strong>Área de atuação:</strong></label>
+      </div>
+      <br />
+      <div>
+        <label>
+          <input type="radio" name="front" value="Frontend" />Front-end
+        </label>
+        <label>
+          <input type="radio" name="qa" value="qa" /> QA Engineer
+        </label>
+        <label>
+          <input type="radio" name="back" value="backend" />Back-end
+        </label>
+        <label>
+          <input type="radio" name="business" value="business" />Analista de Negócio
+        </label>
+      </div>
+      <br />
+      <div>
+        <!--Seleção de senioridade-->
+        <label for="senioridade"><strong>Senioridade</strong></label>
+        <select id="senioridade">
+          <option selected disabled value=""></option>
+          <option>Junior</option>
+          <option>Pleno</option>
+          <option>Senior</option>
+        </select>
+      </div>
+
+      <div>
+        <br />
+        <label
+          ><strong
+            >Quais dias do evento você teria interesse em participar?</strong
+          ></label
+        >
+        <br />
+        <input
+          type="checkbox"
+          id="dias"
+          name="dias"
+          value="Todos os dois dias de evento"
+        />
+        <label for="dias">Todos os dias de evento</label>
+      </div>
+      <button class="button" type="submit">Enviar</button>
+    </form>
+  </body>
 </html>
