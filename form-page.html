@@ -4,18 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+    </style>
+
     <title>TechNews Form</title>
+     <!-- CSS -->
+     <link rel="stylesheet" type="text/css" href="form-page.css" media="screen">
   </head>
   <!--Título e descrição do form-->
   <body>
     <div>
-      <h1>Cadastro TechNews</h1>
+      <h1 id="title">Cadastro TechNews</h1>
       <p>Preencha os dados abaixo participar do TechNews (evento fictício).</p>
     </div>
     <br />
 
     <!--box com as informações pessoais-->
-    <form>
+    <form id="form">
       <fieldset>
         <div>
           <label>Nome</label>
@@ -49,7 +56,8 @@
         <label>
           <input type="radio" name="front" value="Frontend" />Front-end
         </label>
-        <label> <input type="radio" name="qa" value="qa" />QA Engineer 
+        <label>
+            <input type="radio" name="qa" value="qa" />QA Engineer 
         </label>
         <label>
           <input type="radio" name="back" value="backend" />Backend
@@ -60,7 +68,7 @@
       </div>
       <br />
       <div>
-          
+
         <!--Seleção de senioridade-->  
         <label>Senioridade</label>
         <select id="senioridade">
