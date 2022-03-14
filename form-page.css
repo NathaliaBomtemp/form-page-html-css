@@ -1,18 +1,90 @@
 * {
-  margin: 0;
-  padding: 0;
-}
-
-#title {
-  text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  color: #000131;
-  margin-top: 5%;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
   background-color: #ffffff;
 }
+
+#title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #000131;
+  margin-top: 5%;
+}
+
+#subtitle {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #000000;
+  margin-top: 1%;
+}
+
 #form {
-  justify-content: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  border-color: #000000;
+  border-radius: 20px;
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 2%;
+}
+
+#fieldsetcontent {
+  margin-top: 1%;
+  border-color: #f8b0e3;
+  border-radius: 20px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+#nameId {
+  margin-top: 2%;
+  border-color: #2effd2;
+  border-radius: 15px;
+  border-width: 2px;
+  height: 22px;
+  width: 230px;
+  border-style: solid;
+}
+
+#lastNameId {
+  margin-top: 1%;
+  border-color: #2effd2;
+  border-radius: 15px;
+  border-width: 2px;
+  height: 22px;
+  width: 230px;
+  border-style: solid;
+}
+
+#emailId {
+  margin-top: 1%;
+  border-color: #2effd2;
+  border-radius: 15px;
+  border-width: 2px;
+  height: 22px;
+  width: 230px;
+  border-style: solid;
+}
+
+#phoneId {
+  margin-top: 1%;
+  border-color: #2effd2;
+  border-radius: 15px;
+  border-width: 2px;
+  height: 22px;
+  width: 230px;
+  border-style: solid;
+}
+
+#profileId {
+  margin-top: 1%;
+  border-color: #2effd2;
+  border-radius: 15px;
+  border-width: 2px;
+  height: 22px;
+  width: 230px;
+  border-style: solid;
 }
