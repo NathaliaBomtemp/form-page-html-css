@@ -1,5 +1,11 @@
-# Form Page - HTML + CSS - Frontend
-:pushpin:Form page - HTML + CSS;
+## Form Page - HTML + CSS - Frontend
+:pushpin: This project it`s a model of a Frontend registration form, developed with HTML and CSS;
+
+## Running the project
+
+To open the form on your browser you need to clone this project and after this click to open the `.hmtl` file.
+
+## Project Details
 
 More details of the project description - in progress :hammer_and_wrench:
 
