@@ -7,6 +7,17 @@ To open the form on your browser you need to clone this project and after this c
 
 ## Project Details
 
+The form simulate a tech event registration, where you need to fill and send your personal data, to complete your subscription.
+
+**Text Inputs**
+
+I included 5 text inputs, they are:
+
+* **Nome** and **Sobrenome**: `<input type="text" required />`
+* **E-mail**: `<input type="email" required />`
+* **Telefone**: `<input type="number" required />`
+* **LinkedIn**: `<input type="url"/>`
+
 More details of the project description - in progress :hammer_and_wrench:
 
 <h4 align="center">
