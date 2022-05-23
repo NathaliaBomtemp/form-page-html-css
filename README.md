@@ -7,7 +7,7 @@ This project it`s a model of a Frontend IT event registration form, developed wi
 
 ## Running the project
 
-To open the form on your browser you need to fork this project and after this click to open the `.hmtl` file.
+To open the Form on your browser you need to fork this project and after this click to open the `.hmtl` file.
 
 <h4 align="center"> 
 <img width="690" alt="Captura de tela 2022-03-22 204529" src="https://user-images.githubusercontent.com/70415844/159598361-04862375-02f4-45a1-b560-783843729612.gif">
