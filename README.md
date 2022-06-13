@@ -58,7 +58,7 @@ The combo box helps to select the seniority option for the registration:
 <img width="500" alt="Captura de tela 2022-03-22 210857" src="https://user-images.githubusercontent.com/70415844/159596878-b9629a3c-e2f3-4a62-af79-27deac2f1e36.png" />
 </h4> 
 
-**Submit Button** : To send the Registration
+**Submit Button** : To send the Registration;
 
 ## Author
 <table align="center">
