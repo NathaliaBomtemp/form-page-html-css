@@ -42,7 +42,7 @@ The radio has the options to choose the positions in the IT area.
 
 **Combo Box**
 
-The combo box helps to select the seniority option for the registration:
+The combo box helps to select one of the seniorities below:
 
 * **1.** `<option>Junior</option>`
 * **2.** `<option>Pleno</option>`
