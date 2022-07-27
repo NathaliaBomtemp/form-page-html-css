@@ -3,7 +3,7 @@
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" target="_blank"></a>
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" target="_blank"></a>
 
-This project it`s a model of a Frontend IT event registration form, developed with **HTML and CSS**;
+This project it`s a model of a Frontend IT event registration form, developed with **HTML and CSS**.
 
 ## Running the project
 
